@@ -15,6 +15,8 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/tour' component={AllCategories} />
+          <Route exact path="/fb" component={()=> {window.location="https://www.facebook.com/CarolinesCrystals"}} />
+          <Route exact path="/ig" component={()=> {window.location="https://www.instagram.com/Carolines.crystals"}} />
         </Switch>
         <br />
         <br />

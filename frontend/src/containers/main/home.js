@@ -12,22 +12,25 @@ const Home = () => {
     return(
         <div>
             <br />
-            <h1 className="centered backed-p2">Welcome to Carolines Crystals!</h1> 
             <br />
-            <br />
-            <div className="centered backed bold">
+            <div className="centered backed3 bold">
+                <h1>Welcome to Carolines Crystals!</h1> 
                 <h4>
-                    Carolines Crystals is your destination for crystals, tapestries, incense, and 
-                    good vibes!
-                    <br />
-                    We also have really cool funky snap button insert jewelry!
+                Welcome to Caroline’s Crystals, your supplier for crystals, 
+                tapestries, incense, and good vibes! 
+                <br />
+                <br />
+                Family owned and operated since 2015, our store at the 
+                Quakertown Farmer’s Market (Q-Mart to locals) can
+                find what you need. Whether looking for our metaphysical 
+                aspect, or just for fun, everyone is welcome!
                 </h4>
             </div>
             <br />
             <br />
             <div className="centered backed-p bold">
                 <h3>
-                    <strong>Entrance #21</strong> at the 
+                    Visit us at <strong>Entrance #21</strong> at the 
                     <br />
                     <br />
                     Quakertown Farmers Market  
@@ -36,6 +39,7 @@ const Home = () => {
                     201 Station Rd Quakertown PA 18951 
                 </h3>
             </div>
+            <br />
             <br />
             <div className="middle centered backed2">
                 <h2>
@@ -64,6 +68,7 @@ const Home = () => {
                     </div>
                 </h3>
             </div>
+            <br />
             <br />
             <br />
             <div className="grid80">

@@ -5,13 +5,14 @@ const CategoryContainer = props =>{
 
     return(
         <div>
-        <div>
-            <h2 className="centered backed-p">{props.category}!</h2>
-        </div>
             {props.description ?
-                <h3 className="centered backed">{props.description}</h3>
-            : 
-                null}
+                <div>    
+                    <h2 className="centered backed-p-close">{props.category}!</h2>
+                    <h3 className="centered backed-close">{props.description}</h3>
+                </div>
+            :
+                <h2 className="centered backed-p2">{props.category}!</h2>
+            }
             { props.images ?   
                 <Slider dots>
                     {props.images.map(image=>(

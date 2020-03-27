@@ -46,6 +46,17 @@ a{
 h1, h2, h3, h4, h5{
   line-height: 150%;
 }
+
+h5{
+  font-size: 14px;
+  line-height: 60%;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 12px
+  }
+
+}
+
 h4, h5{
   font-family: myH5font, "Comic Sans MS",  sans-serif;
 }
@@ -54,6 +65,17 @@ h1{
   font-family: myH1font, "Courier New", Courier, monospace;
   font-size: 50px;
   font-weight: 600;
+
+  &.foot-text{
+    font-family: myH1font2, "Courier New", Courier, monospace;
+    color: rgb(0, 0, 0);
+  }
+
+  &.offset{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 3vw;
+  }
 
   @media only screen and (max-width: 700px) {
     font-size: 40px
@@ -101,6 +123,21 @@ h3{
   grid-template-columns: 30% 22.5% 22.5% 25%;
 }
 
+.grid50 { 
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid70 { 
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.grid55 { 
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
 .grid80 { 
   display: grid;
   grid-template-columns: 10% 80% 10%;
@@ -127,23 +164,6 @@ h3{
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.footer{
-  background-image: url(./assets/banner2.jpg);
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#footer{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2.5rem;
 }
 
 .centered{
@@ -181,6 +201,36 @@ h3{
   }
 }
 
+.backed3{
+  background-color: rgb(137, 235, 255);
+  padding: 1px 30px 30px 30px;
+
+  @media only screen and (max-width: 700px) {
+    padding: 15px 15px 15px 15px;
+  }
+}
+
+
+.backed-close{
+  background-color: rgb(137, 235, 255);
+  padding: 30px 30px 30px 30px;
+  margin-top: 0;
+
+  @media only screen and (max-width: 700px) {
+    padding: 15px 15px 15px 15px;
+  }
+}
+
+.backed-p-close{
+  background-color: rgb(168, 137, 255);
+  padding: 20px 20px 10px 20px;
+  margin: auto;
+
+  @media only screen and (max-width: 700px) {
+    padding: 15px 15px 15px 15px;
+  }
+}
+
 .backed-p{
   background-color: rgb(168, 137, 255);
   padding: 30px 30px 30px 30px;
@@ -202,5 +252,31 @@ h3{
   @media only screen and (max-width: 700px) {
     width: 96%;
     padding: 5px 5px 5px 5px;
+  }
+}
+
+
+.footer{
+  background-image: url(./assets/footer2.jpg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.icon{
+  background-color: red($color: #000000);
+  max-width: 59px;
+  
+  @media only screen and (max-width: 500px){
+    max-width: 40px;
   }
 }
