@@ -4,7 +4,7 @@ import './App.scss';
 import Home from './containers/main/home';
 import Footer from './containers/main/footer';
 import Header from './containers/main/header';
-import allCategories from './containers/categories/all-categories';
+import AllCategories from './containers/categories/all-categories';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
       <div className='size-holder middle'>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/tour' component={allCategories} />
+          <Route exact path='/tour' component={AllCategories} />
         </Switch>
         <br />
         <br />

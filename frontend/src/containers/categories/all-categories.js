@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import crystal1 from '../../assets/Crystals/1.jpg';
 import crystal2 from '../../assets/Crystals/2.jpg';
@@ -67,8 +67,12 @@ import CategoryContainer from './category-container';
 import { Link } from 'react-router-dom';
 import CustomButton from '../../components/button/custom-button.component';
 
-const allCategories = props => {
-                 
+const AllCategories = props => {
+    
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
+
     const crystalDescription = "Vast selection of loose crystals (tumbled or raw) and " +
         "mineral specimens from thumbnail size to 2ft tall!"
     
@@ -205,4 +209,4 @@ const allCategories = props => {
     )
 }
 
-export default allCategories;
+export default AllCategories;

@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CustomButton from '../../components/button/custom-button.component';
 import { Link } from 'react-router-dom';
 
 
 const Home = () => {
+    
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
+
     return(
         <div>
             <br />
@@ -32,33 +37,33 @@ const Home = () => {
                 </h3>
             </div>
             <br />
-            <div className="centered">
+            <div className="middle centered backed2">
                 <h2>
                     Hours:
                 </h2>
+                <h3 className="grid20 shrink">
+                    <div>
+                        Mon - Thur:
+                        <br />
+                        Q-Mart Closed 
+                    </div>
+                    <div>
+                        Friday:
+                        <br />
+                        9am-9pm
+                    </div>
+                    <div>
+                        Saturday:
+                        <br />
+                        9am-9pm
+                    </div>
+                    <div>
+                        Sunday:
+                        <br />
+                        10am-5pm
+                    </div>
+                </h3>
             </div>
-            <h3 className="middle backed grid20 shrink">
-                <div className="centered">
-                    Mon - Thur:
-                    <br />
-                    Q-Mart Closed 
-                </div>
-                <div className="centered">
-                    Friday:
-                    <br />
-                    9am-9pm
-                </div>
-                <div className="centered">
-                    Saturday:
-                    <br />
-                    9am-9pm
-                </div>
-                <div className="centered">
-                    Sunday:
-                    <br />
-                    10am-5pm
-                </div>
-            </h3>
             <br />
             <br />
             <div className="grid80">
