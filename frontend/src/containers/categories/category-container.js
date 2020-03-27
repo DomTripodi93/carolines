@@ -5,7 +5,9 @@ const CategoryContainer = props =>{
 
     return(
         <div>
-            <h2 className="centered">{props.category}!</h2>
+        <div>
+            <h2 className="centered backed-p">{props.category}!</h2>
+        </div>
             {props.description ?
                 <h3 className="centered backed">{props.description}</h3>
             : 

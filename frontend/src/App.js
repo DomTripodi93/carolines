@@ -28,6 +28,23 @@ import jewlery3 from './assets/Jewlery/3.jpg';
 import jewlery5 from './assets/Jewlery/5.jpg';
 import jewlery6 from './assets/Jewlery/6.jpg';
 
+import necklace20 from './assets/Necklaces/20.jpg';
+import necklace21 from './assets/Necklaces/21.jpg';
+import necklace22 from './assets/Necklaces/22.jpg';
+import necklace23 from './assets/Necklaces/23.jpg';
+import necklace24 from './assets/Necklaces/24.jpg';
+import necklace25 from './assets/Necklaces/25.jpg';
+import necklace26 from './assets/Necklaces/26.jpg';
+import necklace27 from './assets/Necklaces/27.jpg';
+import necklace28 from './assets/Necklaces/28.jpg';
+import necklace29 from './assets/Necklaces/29.jpg';
+import necklace30 from './assets/Necklaces/30.jpg';
+import necklace31 from './assets/Necklaces/31.jpg';
+import necklace32 from './assets/Necklaces/32.jpg';
+import necklace33 from './assets/Necklaces/33.jpg';
+import necklace34 from './assets/Necklaces/34.jpg';
+import necklace35 from './assets/Necklaces/35.jpg';
+
 import tapestry1 from './assets/Tapestries/1.jpg';
 import tapestry2 from './assets/Tapestries/2.jpg';
 import tapestry3 from './assets/Tapestries/3.jpg';
@@ -48,6 +65,8 @@ import misc6 from './assets/Misc/6.jpg';
 import misc7 from './assets/Misc/7.jpg';
 import misc8 from './assets/Misc/8.jpg';
 import misc9 from './assets/Misc/9.jpg';
+import misc21 from './assets/Misc/21.jpg';
+import misc22 from './assets/Misc/22.jpg';
 
 function App() {
                  
@@ -59,6 +78,7 @@ function App() {
     crystal8,
     crystal6,
     crystal2,
+    misc6,
     crystal14,
     crystal3,
     crystal4,
@@ -77,11 +97,27 @@ function App() {
   "108 bead Malas, fillable glass window lockets, and aromatherapy jewelry"
 
   const jewlery =[
+    necklace20,
     jewlery2,
     jewlery3,
+    necklace21,
+    necklace22,
+    necklace23,
+    necklace24,
+    necklace25,
     jewlery5,
+    necklace26,
+    necklace27,
+    necklace28,
+    necklace29,
+    necklace30,
     jewlery1,
-    jewlery6
+    jewlery6,
+    necklace31,
+    necklace32,
+    necklace33,
+    necklace34,
+    necklace35,
   ];
 
   const tapestryDescription = "Give your pad some extra zen with our tapestries, " + 
@@ -101,17 +137,17 @@ function App() {
   ];
 
   const miscDescription = "We carry a selection of sage smudge sticks, archangel " + 
-    "incense, native soul incense, and suns eye brand incense, oils, and room sprays. " + 
-    "Real fossilized animals ranging from small ammonites to impressive Megalodon teeth."
+    "incense, native soul incense, and suns eye brand incense, oils, and room sprays."
   
   const misc = [
     misc1,
-    misc6,
-    misc2,
+    misc21,
     misc3,
     misc4,
+    misc2,
     misc5,
     misc7,
+    misc22,
     misc8,
     misc9,
   ];
@@ -124,7 +160,7 @@ function App() {
         <br />
         <br />
         <CategoryContainer 
-          category="Crystals, Crystal Grids"
+          category="Crystals, Minerals and Fossils"
           images={crystals}
           description={crystalDescription}
           />

@@ -4,7 +4,10 @@ import React from 'react';
 const Home = () => {
     return(
         <div>
-            <h1 className="centered">Welcome to Carolines Crystals!</h1> 
+            <br />
+            <h1 className="centered backed-p2">Welcome to Carolines Crystals!</h1> 
+            <br />
+            <br />
             <div className="centered backed bold">
                 <h4>
                     Carolines Crystals is your destination for crystals, tapestries, incense, and 
@@ -12,7 +15,10 @@ const Home = () => {
                     <br />
                     We also have really cool funky snap button insert jewelry!
                 </h4>
-                <br />
+            </div>
+            <br />
+            <br />
+            <div className="centered backed-p bold">
                 <h3>
                     <strong>Entrance #21</strong> at the 
                     <br />
