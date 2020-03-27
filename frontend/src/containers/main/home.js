@@ -1,4 +1,6 @@
 import React from 'react';
+import CustomButton from '../../components/button/custom-button.component';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -58,9 +60,16 @@ const Home = () => {
                 </div>
             </h3>
             <br />
-            <h3 className="centered backed">
-                Crystals • Fossils • Jewelry • Incense • Sage Smudges • Tapestries • Housewares 
-            </h3>
+            <br />
+            <div className="grid80">
+                <div></div>
+                <Link to="/tour" className="grid100">
+                    <CustomButton 
+                        label="Virtual Tour"
+                        buttonStyle="purple"
+                        />
+                </Link>
+            </div>
         </div>
     )
 }

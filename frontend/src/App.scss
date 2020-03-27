@@ -1,3 +1,21 @@
+
+@font-face {
+  font-family: myH1Font;
+  src: url(./assets/font/FogSansOutline-8wpJ.otf) format('opentype');
+}
+
+@font-face {
+  font-family: myH1Font2;
+  src: url(./assets/font/HussarNovaBlack-ZaP3.otf) format('opentype');
+}
+
+
+@font-face {
+  font-family: myH5Font;
+  src: url(./assets/font/ExoDemiBold-Jw3M.otf) format('opentype');
+}
+
+
 .page{
   position: relative;
   background: url("./assets/amethyst-bg2.jpg");
@@ -20,25 +38,30 @@
   color: white;
 }
 
+a{
+  text-decoration: none;
+  font-weight: 600;
+}
+
 h1, h2, h3, h4, h5{
   line-height: 150%;
 }
-
-h3{
-  font-family: "Comic Sans MS",  sans-serif;
+h4, h5{
+  font-family: myH5font, "Comic Sans MS",  sans-serif;
 }
 
 h1{
-  font-family: "Courier New", Courier, monospace;
-  font-size: 40px;
+  font-family: myH1font, "Courier New", Courier, monospace;
+  font-size: 50px;
+  font-weight: 600;
 
   @media only screen and (max-width: 700px) {
-    font-size: 30px
+    font-size: 40px
   }
 }
 
 h2{
-  font-family: "Comic Sans MS",  sans-serif;
+  font-family: myH5font, "Comic Sans MS",  sans-serif;
   font-size: 30px;
 
   @media only screen and (max-width: 700px) {
@@ -47,7 +70,7 @@ h2{
 }
 
 h3{
-  font-family: "Comic Sans MS",  sans-serif;
+  font-family: myH5font, "Comic Sans MS",  sans-serif;
   font-size: 25px;
 
   @media only screen and (max-width: 700px) {
@@ -76,6 +99,16 @@ h3{
 .grid20 { 
   display: grid;
   grid-template-columns: 30% 22.5% 22.5% 25%;
+}
+
+.grid80 { 
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.grid100 { 
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 
