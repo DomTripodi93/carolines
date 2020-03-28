@@ -5,7 +5,6 @@ export const CustomizedButton = styled.button`
   color: rgb(62, 0, 143);
   border: none;
   border-radius: 0;
-  font-size: 25px;
   box-shadow: 30px 60px 10px 30px rgba(0,0,0,0.3);
   text-shadow: 1px 1px 2px #222222;
 
@@ -48,24 +47,14 @@ export const CustomizedButton = styled.button`
   &.red {
     background-color: rgb(200, 55, 10);
   }
-
-  &.small{
-    font-size: 2vw;
-  
-    @media (min-width: 900px) {
-      font-size: 17px;
-    }
-    
-    @media (max-width: 570px) {
-      font-size: 16px;
-    }
-  }
 `;
 
 CustomizedButton.displayName = 'CustomizedButton';
 
 export const ButtonText = styled.h5`
   margin: 10px 10px 10px 10px;
+  font-size: 30px;
+  line-height: 110%;
 
   &.small{
     @media (max-width: 570px){
