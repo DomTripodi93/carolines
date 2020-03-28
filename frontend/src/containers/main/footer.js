@@ -11,13 +11,19 @@ const Footer = () =>{
                 <div>
                 </div>
                 <div className="grid100 backed2">
-                    <div className="grid70">
-                        <div></div>
+                    <div className="gridf75">
+                        <h5>Visit Us:</h5>
                         <div className="grid50">
-                            <Link to="/ig" className="middle">
+                            <Link to="/ig" className="middle centered">
+                                <h5>
+                                    Instagram 
+                                </h5>
                                 <img src={ig} alt="fb" className="icon" />
                             </Link>
-                            <Link to="/fb" className="middle">
+                            <Link to="/fb" className="middle centered">
+                                <h5>
+                                    FaceBook 
+                                </h5>
                                 <img src={fb} alt="fb" className="icon" />
                             </Link>
                         </div>

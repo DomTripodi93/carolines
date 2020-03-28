@@ -159,6 +159,11 @@ h3{
   grid-template-columns: 27.5% 45% 27.5%;
 }
 
+.gridf75 { 
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
 .grid100 { 
   display: grid;
   grid-template-columns: 100%;

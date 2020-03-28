@@ -14,9 +14,9 @@ const Home = () => {
             <br />
             <br />
             <div className="centered backed3 bold">
-                <h1>Welcome to Carolines Crystals!</h1> 
+                <h1>Welcome to Caroline's Crystals!</h1> 
                 <h4>
-                Welcome to Caroline’s Crystals, your supplier for crystals, 
+                Your supplier for crystals, 
                 tapestries, incense, and good vibes! 
                 <br />
                 <br />

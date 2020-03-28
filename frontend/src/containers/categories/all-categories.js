@@ -181,7 +181,8 @@ const AllCategories = props => {
     return(
         <div>
             <h3 className="centered backed">
-                Crystals • Fossils • Jewelry • Incense • Sage Smudges • Tapestries • Housewares 
+                Crystals • Fossils • Jewelry • Incense • Sage Smudges • 
+                Tapestries • Housewares • Mystical and New Age Needs 
             </h3>
             <br />
             <br />
